@@ -1,0 +1,78 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.card{
+    width: 18rem;
+    background:khaki;
+    text-align: center;
+    border: 1px solid aqua;
+    margin: 10px;
+    border-radius: 10px;
+}
+.box{
+    width: 18rem;
+    background:green;
+    text-align: center;
+    border: 1px solid green;
+    color: green;
+    border-radius: 10px;
+}
+img{
+    width:100%;
+    height: 150px;
+}
+
+.harry{
+    border:1px salmon aqua;
+    width: 18rem;
+    background: cornflowerblue;
+    border-radius: 10px;
+    text-align: center;
+}
+
+.card-head h3{
+    font-family: sans-serif;
+    color: darkgoldenrod;
+    /*text align:center;*/ 
+    /*margin: 5px 20px 5px 20px */
+}
+
+
+
+
+
+
+
+
+@media all and (max-width: 500px){
+    body{
+        background: aqua;
+    }
+    .card{
+        height: 45%; 
+        /* width: 45%; */
+        font-size: 25px;
+        color: aqua; 
+    }
+    .card-body{
+        height: 45%;
+        /* width: 5%; */
+        font-size: 25px;
+        color: aqua; 
+    }
+    .card-text{
+        height: 45% ;
+        /* width: 45%; */
+        font-size: 25px;
+        color: aqua; 
+    }
+    .box{
+        height: 45%;
+        /* width: 45%; */
+        font-size: 25px;
+        color: aqua; 
+    }
+}
+
